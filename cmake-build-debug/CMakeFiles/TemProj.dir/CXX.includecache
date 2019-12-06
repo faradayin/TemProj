@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/feng/cpp-primer/TemProj/NoDefault.cpp
+NoDefault.h
+/mnt/e/feng/cpp-primer/TemProj/NoDefault.h
+vector
+-
+
+/mnt/e/feng/cpp-primer/TemProj/NoDefault.h
+
+/mnt/e/feng/cpp-primer/TemProj/main.cpp
+iostream
+-
+

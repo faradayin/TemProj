@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/TemProj.dir/main.cpp.o CMakeFiles/TemProj.dir/NoDefault.cpp.o  -o TemProj 
