@@ -84,10 +84,10 @@
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/mnt/e/feng/cpp-primer/TemProj/NoDefault.cpp">
+      <Unit filename="/mnt/e/feng/cpp-primer/TemProj/example.cpp">
          <Option target="TemProj"/>
       </Unit>
-      <Unit filename="/mnt/e/feng/cpp-primer/TemProj/NoDefault.h">
+      <Unit filename="/mnt/e/feng/cpp-primer/TemProj/example.h">
          <Option target="TemProj"/>
       </Unit>
       <Unit filename="/mnt/e/feng/cpp-primer/TemProj/main.cpp">

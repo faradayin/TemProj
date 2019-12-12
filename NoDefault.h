@@ -14,10 +14,11 @@ public:
 
 };
 
+//定义C的默认构造函数
 class C
 {
 public:
-    C():c_element(0)// define the constructor of C
+    C(): c_element(0)// 需要调用NoDefault的构造函数，要保证所调用的构造函数存在
     {}
 
 private:

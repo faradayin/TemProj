@@ -81,40 +81,40 @@ CMakeFiles/TemProj.dir/main.cpp.o.provides: CMakeFiles/TemProj.dir/main.cpp.o.re
 CMakeFiles/TemProj.dir/main.cpp.o.provides.build: CMakeFiles/TemProj.dir/main.cpp.o
 
 
-CMakeFiles/TemProj.dir/NoDefault.cpp.o: CMakeFiles/TemProj.dir/flags.make
-CMakeFiles/TemProj.dir/NoDefault.cpp.o: ../NoDefault.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/feng/cpp-primer/TemProj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TemProj.dir/NoDefault.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TemProj.dir/NoDefault.cpp.o -c /mnt/e/feng/cpp-primer/TemProj/NoDefault.cpp
+CMakeFiles/TemProj.dir/example.cpp.o: CMakeFiles/TemProj.dir/flags.make
+CMakeFiles/TemProj.dir/example.cpp.o: ../example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/feng/cpp-primer/TemProj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TemProj.dir/example.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TemProj.dir/example.cpp.o -c /mnt/e/feng/cpp-primer/TemProj/example.cpp
 
-CMakeFiles/TemProj.dir/NoDefault.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TemProj.dir/NoDefault.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/feng/cpp-primer/TemProj/NoDefault.cpp > CMakeFiles/TemProj.dir/NoDefault.cpp.i
+CMakeFiles/TemProj.dir/example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TemProj.dir/example.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/feng/cpp-primer/TemProj/example.cpp > CMakeFiles/TemProj.dir/example.cpp.i
 
-CMakeFiles/TemProj.dir/NoDefault.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TemProj.dir/NoDefault.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/feng/cpp-primer/TemProj/NoDefault.cpp -o CMakeFiles/TemProj.dir/NoDefault.cpp.s
+CMakeFiles/TemProj.dir/example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TemProj.dir/example.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/feng/cpp-primer/TemProj/example.cpp -o CMakeFiles/TemProj.dir/example.cpp.s
 
-CMakeFiles/TemProj.dir/NoDefault.cpp.o.requires:
+CMakeFiles/TemProj.dir/example.cpp.o.requires:
 
-.PHONY : CMakeFiles/TemProj.dir/NoDefault.cpp.o.requires
+.PHONY : CMakeFiles/TemProj.dir/example.cpp.o.requires
 
-CMakeFiles/TemProj.dir/NoDefault.cpp.o.provides: CMakeFiles/TemProj.dir/NoDefault.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TemProj.dir/build.make CMakeFiles/TemProj.dir/NoDefault.cpp.o.provides.build
-.PHONY : CMakeFiles/TemProj.dir/NoDefault.cpp.o.provides
+CMakeFiles/TemProj.dir/example.cpp.o.provides: CMakeFiles/TemProj.dir/example.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TemProj.dir/build.make CMakeFiles/TemProj.dir/example.cpp.o.provides.build
+.PHONY : CMakeFiles/TemProj.dir/example.cpp.o.provides
 
-CMakeFiles/TemProj.dir/NoDefault.cpp.o.provides.build: CMakeFiles/TemProj.dir/NoDefault.cpp.o
+CMakeFiles/TemProj.dir/example.cpp.o.provides.build: CMakeFiles/TemProj.dir/example.cpp.o
 
 
 # Object files for target TemProj
 TemProj_OBJECTS = \
 "CMakeFiles/TemProj.dir/main.cpp.o" \
-"CMakeFiles/TemProj.dir/NoDefault.cpp.o"
+"CMakeFiles/TemProj.dir/example.cpp.o"
 
 # External object files for target TemProj
 TemProj_EXTERNAL_OBJECTS =
 
 TemProj: CMakeFiles/TemProj.dir/main.cpp.o
-TemProj: CMakeFiles/TemProj.dir/NoDefault.cpp.o
+TemProj: CMakeFiles/TemProj.dir/example.cpp.o
 TemProj: CMakeFiles/TemProj.dir/build.make
 TemProj: CMakeFiles/TemProj.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/feng/cpp-primer/TemProj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TemProj"
@@ -126,7 +126,7 @@ CMakeFiles/TemProj.dir/build: TemProj
 .PHONY : CMakeFiles/TemProj.dir/build
 
 CMakeFiles/TemProj.dir/requires: CMakeFiles/TemProj.dir/main.cpp.o.requires
-CMakeFiles/TemProj.dir/requires: CMakeFiles/TemProj.dir/NoDefault.cpp.o.requires
+CMakeFiles/TemProj.dir/requires: CMakeFiles/TemProj.dir/example.cpp.o.requires
 
 .PHONY : CMakeFiles/TemProj.dir/requires
 
