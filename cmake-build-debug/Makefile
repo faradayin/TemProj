@@ -123,33 +123,6 @@ TemProj/fast:
 	$(MAKE) -f CMakeFiles/TemProj.dir/build.make CMakeFiles/TemProj.dir/build
 .PHONY : TemProj/fast
 
-example.o: example.cpp.o
-
-.PHONY : example.o
-
-# target to build an object file
-example.cpp.o:
-	$(MAKE) -f CMakeFiles/TemProj.dir/build.make CMakeFiles/TemProj.dir/example.cpp.o
-.PHONY : example.cpp.o
-
-example.i: example.cpp.i
-
-.PHONY : example.i
-
-# target to preprocess a source file
-example.cpp.i:
-	$(MAKE) -f CMakeFiles/TemProj.dir/build.make CMakeFiles/TemProj.dir/example.cpp.i
-.PHONY : example.cpp.i
-
-example.s: example.cpp.s
-
-.PHONY : example.s
-
-# target to generate assembly for a file
-example.cpp.s:
-	$(MAKE) -f CMakeFiles/TemProj.dir/build.make CMakeFiles/TemProj.dir/example.cpp.s
-.PHONY : example.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... TemProj"
-	@echo "... example.o"
-	@echo "... example.i"
-	@echo "... example.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

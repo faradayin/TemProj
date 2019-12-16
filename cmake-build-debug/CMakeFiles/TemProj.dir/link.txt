@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/TemProj.dir/main.cpp.o CMakeFiles/TemProj.dir/example.cpp.o  -o TemProj 
+/usr/bin/c++   -g   CMakeFiles/TemProj.dir/main.cpp.o  -o TemProj 

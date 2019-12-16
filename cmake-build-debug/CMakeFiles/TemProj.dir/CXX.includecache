@@ -6,17 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/mnt/e/feng/cpp-primer/TemProj/example.cpp
-example.h
-/mnt/e/feng/cpp-primer/TemProj/example.h
-
-/mnt/e/feng/cpp-primer/TemProj/example.h
-vector
+/mnt/e/feng/cpp-primer/TemProj/Tree.h
+string
 -
 
 /mnt/e/feng/cpp-primer/TemProj/main.cpp
 iostream
 -
-example.h
-/mnt/e/feng/cpp-primer/TemProj/example.h
+Tree.h
+/mnt/e/feng/cpp-primer/TemProj/Tree.h
 

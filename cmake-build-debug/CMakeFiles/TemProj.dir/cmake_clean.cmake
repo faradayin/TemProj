@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TemProj.dir/main.cpp.o"
-  "CMakeFiles/TemProj.dir/example.cpp.o"
   "TemProj.pdb"
   "TemProj"
 )

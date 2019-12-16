@@ -1,7 +1,9 @@
 #include <iostream>
-
+#include "Tree.h"
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
+    BinStrTree bst1;
+    BinStrTree bst2 = bst1;
+
     return 0;
 }

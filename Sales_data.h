@@ -30,6 +30,15 @@ struct Sales_data
     Sales_data(std::string s): Sales_data(s, 0, 0) {}
     Sales_data(std::istream &is): Sales_data() {read(is, *this);}//两层委托，最后执行函数体
 
+    //p444
+    //等价于合成拷贝赋值运算符
+    Sales_data& operator=(const Sales_data &rhs)
+    {
+        bookNo = rhs.bookNo;
+        units_sold = rhs.units_sold;
+        revenue = rhs.revenue;
+        return *this;
+    }
     std::string isbn() const
     {
         return bookNo;

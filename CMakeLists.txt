@@ -3,4 +3,4 @@ project(TemProj)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(TemProj main.cpp  example.cpp)
+add_executable(TemProj   main.cpp)
