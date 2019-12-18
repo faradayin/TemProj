@@ -1,9 +1,15 @@
 #include <iostream>
-#include "Tree.h"
+#include <fstream>
+#include "StrBlob.h"
 int main()
 {
-    BinStrTree bst1;
-    BinStrTree bst2 = bst1;
+    std::ifstream ifs("jieqi.txt");
+    StrBlob j_blob;
+    for(std::string str; std::getline(ifs, str); j_blob.push_back(str));
+    for(StrBlobPtr pbeg(j_blob.begin()), pend(j_blob.end()); pbeg != pend; pbeg.incr())
+    {
+        std::cout<<pbeg.deref()<< std::endl;
+    }
 
     return 0;
 }
