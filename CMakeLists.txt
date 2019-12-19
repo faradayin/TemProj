@@ -3,4 +3,4 @@ project(TemProj)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(TemProj   main.cpp)
+add_executable(TemProj   main.cpp StrBlob.cpp)
