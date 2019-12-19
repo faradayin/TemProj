@@ -31,12 +31,7 @@
 *.out
 *.app
 
-<<<<<<< HEAD
-# folders
-cmake-build-debug/
-.idea/
-=======
 # useless folders
 .idea/
 cmake-build-debug/
->>>>>>> ebefbb4b0781c99991e41713332de7bf50c6b38d
+
